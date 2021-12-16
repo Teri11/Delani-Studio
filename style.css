@@ -34,7 +34,9 @@ body{
 #mouse{
   margin-top:-570px;
   margin-left: 650px;
-  
   /* align-items: center */
+}
+.about{
+  text-align: center;
 }
 
