@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   /* margin: 0; */
   /* padding: 0; */
@@ -13,10 +18,12 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
   background-color: white;
-  height: 110vh
+  height: 110vh;
+  text-align: center;
 }
 #logo{
-  margin-left: 590px;
+  /* margin-left: 590px; */
+  
 }
 .line1{
   text-align: center;
@@ -33,7 +40,7 @@ body{
 }
 #mouse{
   margin-top:-570px;
-  margin-left: 650px;
+  /* margin-left: 650px; */
   /* align-items: center */
 }
 .about{
@@ -58,4 +65,19 @@ body{
   text-transform: uppercase; 
   text-align: center;
 }
+.portfolio{
+  height: 60rem;
+  text-align: center;
+  
+  
+}
+.pices{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 5px 5px 5px;
 
+}
+
+.pices img{
+margin: 10px;
+}
