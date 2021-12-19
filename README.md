@@ -8,6 +8,12 @@ A web application that displays Delani studio work
 
 ## Design
 <img src="images/sclanding.jpeg" alt="landing">
+<img src="images/scabout.jpeg" alt="about">
+<img src="images/scport.jpeg" alt="portfolio">
+<img src="images/sccontact.jpeg" alt="contact us">
+<img src="images/scicon.jpeg" alt="social-media-icon">
+
+
 
 
 ## Setup/Installation Requirements
