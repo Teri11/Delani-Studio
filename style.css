@@ -82,6 +82,56 @@ body{
 .pices img{
 margin: 10px;
 }
+#name {
+  color: white;
+  /* border-radius: 0px; */
+  /* width: 100px; */
+  margin-left: 200px;
+  margin-top: 10px;
+  align-items: center
+}
+#floatingTextarea2 {
+  width: 1000px;
+  color: white;
+  background-color: transparent;
+  margin-left: 350px;
+  
+}
+.form-control::placeholder {
+  color: white;
+}
+#email {
+  color: white;
+  /* width: 200px; */
+  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-right: 300px;
+  border-radius: 0px;
+}
+#button{
+  align-content: center;
+  margin-top: 5px;
+}
+.btn{
+  color: white;
+  border-radius: 20px;
+}
+#floatingTextarea2::placeholder {
+  color: white;
+}
+/* @media  and (max-width: 800px) {
+  body, .contact 
+} */
+
+.p-hide:hover {
+  transform: translateY();
+}
+
+
+
+
+
+
 .footer{
   background-image: url(images/c_image.jpg);
   background-size: cover;
@@ -90,6 +140,7 @@ margin: 10px;
   height: 45rem;
   text-align: center;
   padding-top: 1rem;
+  color:white;
 }
 .icons{
   padding:4rem;
