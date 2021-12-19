@@ -66,13 +66,14 @@ body{
   text-align: center;
 }
 .portfolio{
-  height: 60rem;
+  height: 48rem;
   text-align: center;
   
   
 }
 .pices{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 5px 5px 5px 5px;
 
@@ -80,4 +81,28 @@ body{
 
 .pices img{
 margin: 10px;
+}
+.footer{
+  background-image: url(images/c_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.icons{
+  padding:4rem;
+  margin-left: 25rem;
+  /* justify-content: space-evenly; */
+}
+.icons img{
+  margin: 0.5rem;
+  margin-right: 3rem;
+}
+.icons>h2{
+  margin-left: 15rem;
+}
+#year{
+  margin-left: 20rem;
 }
