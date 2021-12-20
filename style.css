@@ -141,18 +141,41 @@ margin: 10px;
   
   
 } 
-/* .icons{
-  padding:2rem;
-  margin-left: 5rem;
-  /* justify-content: space-evenly; */
-/* } */
-/* .icons img{
-  margin: 0.5rem;
-  margin-right: 3rem;
+.design-info, .dev-info, .product-info{
+  display: none;
 }
-.icons>h2{
-  margin-left: 15rem;
+/* .card p{
+  display: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  line-height: 5.5;
 } */
-/* #year{
-  /* margin-left: 15rem; */
-/* }   */
+#work1:hover{
+  opacity: 0.6;
+}
+#work1{
+  text-align: center;
+  position: relative;
+}
+.work{
+  display: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.designn{
+  display: none;
+}
+.dev{
+  display: none;
+}
+.management{
+  display: none;
+}
+
+
+
