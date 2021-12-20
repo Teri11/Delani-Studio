@@ -86,39 +86,14 @@ $(document).ready(function(){
 
 
 
+// Form validation and input...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// forms to edit
-  // $("form").on("submit", function(event) {
-  //   event.preventDefault();
-  //           var message = $("#subjectt").val()
-  //           var name = $(".namee").val()
-  //           var email = $(".emailll").val()
-  //   alert("Hello "+name+",\nWe have received your message from "+email+",\nThank you for contacting us.")
-  //   });
+  $("form").on("submit", function(event) {
+    event.preventDefault();
+            var message = $(".form-control").val()
+            var name = $("#namee").val()
+            var email = $("#emaill").val()
+    alert("Hello "+name+",\nWe have received your message from "+email+",\nThank you for contacting us.")
+    });
+    
+    // End of contact...
