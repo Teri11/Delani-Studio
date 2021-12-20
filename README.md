@@ -1,5 +1,5 @@
 ## Delani Studio
-A studio portfolio website build based on HTML,CSS,Javascript and jQuery,<br>on 19/12/2021.
+A studio portfolio website of Delani showing what they do best,<br>on 19/12/2021.
 
 <strong>By Kubai Augustine Mweteri</strong>
 
