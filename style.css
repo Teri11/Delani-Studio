@@ -66,7 +66,7 @@ body{
   text-align: center;
 }
 .portfolio{
-  height: 48rem;
+  height: 35rem;
   text-align: center;
   
   
@@ -76,6 +76,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 5px 5px 5px 5px;
+  Img-fluid:
 
 }
 
@@ -86,7 +87,7 @@ margin: 10px;
   color: white;
   /* border-radius: 0px; */
   /* width: 100px; */
-  margin-left: 200px;
+  margin-left: 240px;
   margin-top: 10px;
   align-items: center
 }
@@ -94,7 +95,7 @@ margin: 10px;
   width: 1000px;
   color: white;
   background-color: transparent;
-  margin-left: 350px;
+  margin-left: 200px;
   
 }
 .form-control::placeholder {
@@ -105,7 +106,7 @@ margin: 10px;
   /* width: 200px; */
   margin-bottom: 50px;
   margin-top: 10px;
-  margin-right: 300px;
+  margin-right: 150px;
   border-radius: 0px;
 }
 #button{
@@ -119,41 +120,39 @@ margin: 10px;
 #floatingTextarea2::placeholder {
   color: white;
 }
-/* @media  and (max-width: 800px) {
-  body, .contact 
-} */
+
 
 .p-hide:hover {
   transform: translateY();
 }
+.container-fluid{
+  object-fit: cover;
+}
 
-
-
-
-
-
-.footer{
+ .footer{ 
   background-image: url(images/c_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 45rem;
+  height: 40rem;
   text-align: center;
-  padding-top: 1rem;
+  /* padding-top: 0.5rem; */
   color:white;
-}
-.icons{
-  padding:4rem;
-  margin-left: 25rem;
+  
+  
+} 
+/* .icons{
+  padding:2rem;
+  margin-left: 5rem;
   /* justify-content: space-evenly; */
-}
-.icons img{
+/* } */
+/* .icons img{
   margin: 0.5rem;
   margin-right: 3rem;
 }
 .icons>h2{
   margin-left: 15rem;
-}
-#year{
-  margin-left: 20rem;
-}
+} */
+/* #year{
+  /* margin-left: 15rem; */
+/* }   */
