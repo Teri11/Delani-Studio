@@ -21,10 +21,7 @@ body{
   height: 110vh;
   text-align: center;
 }
-#logo{
-  /* margin-left: 590px; */
-  
-}
+ 
 .line1{
   text-align: center;
   margin-left:-10px;
@@ -76,7 +73,6 @@ body{
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 5px 5px 5px 5px;
-  Img-fluid:
 
 }
 
@@ -144,13 +140,7 @@ margin: 10px;
 .design-info, .dev-info, .product-info{
   display: none;
 }
-/* .card p{
-  display: none;
-  font-size: 30px;
-  font-weight: bolder;
-  color: white;
-  line-height: 5.5;
-} */
+
 #work1:hover{
   opacity: 0.6;
 }
@@ -158,6 +148,55 @@ margin: 10px;
   text-align: center;
   position: relative;
 }
+ #work2:hover{
+  opacity: 0.6;
+}
+ #work2{
+  text-align: center;
+  position: relative;
+}  
+#work3:hover{
+  opacity: 0.6;
+}
+ #work3{
+  text-align: center;
+  position: relative;
+} 
+#work4:hover{
+  opacity: 0.6;
+}
+ #work4{
+  text-align: center;
+  position: relative;
+} 
+#work5:hover{
+  opacity: 0.6;
+}
+ #work5{
+  text-align: center;
+  position: relative;
+} 
+#work6:hover{
+  opacity: 0.6;
+}
+ #work6{
+  text-align: center;
+  position: relative;
+} 
+#work7:hover{
+  opacity: 0.6;
+}
+ #work7{
+  text-align: center;
+  position: relative;
+} 
+#work8:hover{
+  opacity: 0.6;
+}
+ #work8{
+  text-align: center;
+  position: relative;
+} 
 .work{
   display: none;
   color: white;
@@ -165,6 +204,7 @@ margin: 10px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  font-size: xx-large;
 
 }
 .designn{

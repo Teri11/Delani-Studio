@@ -24,7 +24,7 @@
 
 
 
-
+// PORTFOLIO.....
 $(document).ready(function(){
   $("#work1").hover(function(){
   $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
@@ -32,6 +32,62 @@ $(document).ready(function(){
   $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
   });
 });
+$(document).ready(function(){
+  $("#work2").hover(function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+   }, function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+  });
+});
+$(document).ready(function(){
+  $("#work3").hover(function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+   }, function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+  });
+});
+
+$(document).ready(function(){
+  $("#work4").hover(function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+   }, function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+  });
+});
+$(document).ready(function(){
+  $("#work5").hover(function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+   }, function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+  });
+});
+$(document).ready(function(){
+  $("#work6").hover(function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+   }, function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+  });
+});
+$(document).ready(function(){
+  $("#work7").hover(function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+   }, function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+  });
+});
+$(document).ready(function(){
+  $("#work8").hover(function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+   }, function(){
+  $(".work" ,this).slideToggle(100, "linear").display(100, "linear");
+  });
+});
+// End of portfolio......
+
+
+
+
+
 
 
 
