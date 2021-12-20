@@ -216,6 +216,8 @@ margin: 10px;
 .management{
   display: none;
 }
-
+#btnn{
+  background-color:transparent;
+}
 
 
