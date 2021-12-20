@@ -194,21 +194,22 @@
         <h1 class="pt-5"><strong>CONTACT US</strong></h1>
         <br><br>
         <div class="contacts">
-          <form action="">
+          <form>
             <div class="row ">
               <div class="col" id="name">
-                <input  type="text " class="form-control bg-transparent"  placeholder="Name..." >
+                <input id="namee" type="text " class="form-control  bg-transparent"  placeholder="Name..." required >
               </div>
               <div class="col" id="email">
-                <input type="text" class="form-control bg-transparent" placeholder="Email...">
+                <input  id="emaill" type="email" class="form-control  bg-transparent" placeholder="Email..." required >
               </div>
             </div>
             <div class="form-floating" id="message">
-              <textarea class="form-control" placeholder="Your message here.." id="floatingTextarea2" style="height: 300px"></textarea>
+              <textarea class="form-control" placeholder="Your message here.." id="floatingTextarea2" style="height: 300px" required></textarea>
             </div>
              <div class="col" id="button">
-              <!-- <button class="btn btn-outLine-light" type="submit">Send Message</button> -->
-              <button style="background-color:transparent;"  onClick="myFunction()" type="button" class="btn btn-secondary">Send Message</button>
+               <!-- <input type="submit"> -->
+               <button id="btnn" type="submit" class="btn btn-secondary">Send Message</button>
+             
             </div>
           </form>     
 
