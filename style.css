@@ -143,6 +143,7 @@ margin: 10px;
 
 #work1:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
 #work1{
   text-align: center;
@@ -150,6 +151,7 @@ margin: 10px;
 }
  #work2:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
  #work2{
   text-align: center;
@@ -157,6 +159,7 @@ margin: 10px;
 }  
 #work3:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
  #work3{
   text-align: center;
@@ -164,6 +167,7 @@ margin: 10px;
 } 
 #work4:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
  #work4{
   text-align: center;
@@ -171,6 +175,7 @@ margin: 10px;
 } 
 #work5:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
  #work5{
   text-align: center;
@@ -178,20 +183,25 @@ margin: 10px;
 } 
 #work6:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
  #work6{
   text-align: center;
   position: relative;
+
 } 
 #work7:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
  #work7{
   text-align: center;
   position: relative;
-} 
+ }
+
 #work8:hover{
   opacity: 0.6;
+  cursor: pointer;
 }
  #work8{
   text-align: center;
