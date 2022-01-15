@@ -40,9 +40,9 @@ $(document).ready(function() {
 
   $("form").on("submit", function(event) {
     event.preventDefault();
-            var message = $(".form-control").val()
-            var name = $("#namee").val()
-            var email = $("#emaill").val()
+            let message = $(".form-control").val()
+            let name = $("#namee").val()
+            let email = $("#emaill").val()
     alert("Hello" + name + ",\nWe have received your message from: "+ email + ",\nThank you for contacting us.")
     });
     
